@@ -27,7 +27,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * @author Jeff Lee
  * @since 2015-6-25 19:46:45
- * 	Servlet请求响应中的HelloWrold案例
+ * 	HelloWrold案例
  */
 @WebServlet(urlPatterns = "/helloWorld.html")
 public class HelloWorldServletT extends HttpServlet{
@@ -36,9 +36,9 @@ public class HelloWorldServletT extends HttpServlet{
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-			throws ServletException, IOException
-	{
+			throws ServletException, IOException{
+		// 获取响应对象
 		PrintWriter out = resp.getWriter();
-		out.println("Hello,World!");
+		out.println("Hello,Servlet/JSP World!");
 	}
 }
