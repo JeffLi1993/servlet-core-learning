@@ -55,10 +55,13 @@ public class HttpSessionServletT extends HttpServlet{
 			throws ServletException, IOException {
 		// 从请求中获取Session
 		HttpSession session = req.getSession();
+		// 绑定对象到Session
 		session.setAttribute("sessionName", "sessionValue");
 		
 		PrintWriter out = resp.getWriter();
-		out.println("Hello,HttpSession!");
+		out.println("Hello,HttpSession! <br>");
+		// 从Session获取对象
+		out.println("sessionName: " + session.getAttribute("sessionName"));
 	}
 
 }
