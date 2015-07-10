@@ -22,8 +22,8 @@ Servlet/JSP核心技术学习代码兼测试案例<br>
 
 	├── README.md							// 项目唯一详细文档
 	├── org.servlet.reqAndresp			// 请求与响应
-	├── 	HelloWorldServletT.java		// 	HelloWrold案例
-	├── org.servlet.sessionMngmt		// 会话管理
+	├── 	HelloWorldServletT.java			// 	HelloWrold案例
+	├── org.servlet.sessionMngmt			// 会话管理
 	├── 	HttpSessionServletT.java		// HttpSession简单案例
 	拼命更新！顶！d=====(￣▽￣*)b
 
