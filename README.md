@@ -22,9 +22,13 @@ Servlet/JSP核心技术学习代码兼测试案例<br>
 详细目录：
 
 	├── README.md							// 项目唯一详细文档
-	├── org.servlet.reqAndresp			// 请求与响应
+	├── org.servlet.reqAndresp		// 请求与响应
 	├── 	HelloWorldServletT.java			// 	HelloWrold案例
-	├── org.servlet.sessionMngmt			// 会话管理
+	├── 	LifeCircleServletT.java			// 	Servlet生命周期演示案例
+	├── 	SuperServiceServletT.java		// 	super.service测试案例
+	├── org.servlet.sessionMngmt		// 会话管理
+	├── 	HttpSessionByCookieServletT.java		// HttpSession的默认Cookie实现案例
+	├── 	HttpSessionMethodsServletT.java		// HttpSession的详细案例
 	├── 	HttpSessionServletT.java		// HttpSession简单案例
 	拼命更新！顶！d=====(￣▽￣*)b
 
