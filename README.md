@@ -2,6 +2,7 @@
 Servlet/JSP学习积累的例子，是Java EE初学者及Servlet/JSP核心技术巩固的最佳实践。
 
 ## 作者与学习乐园
+源码地址:我的[GitHub地址](https://github.com/JeffLi1993 "GitHub")
 作者： [李强强](http://www.bysocket.com/ "李强强")<br>
 QQ群：编程之美 365234583 [立即加入](http://jq.qq.com/?_wv=1027&k=Sx4s4U "编程之美")
 

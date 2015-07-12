@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 /*
@@ -28,7 +29,7 @@ import javax.servlet.http.HttpServletResponse;
  * 	super.service测试案例
  */
 @WebServlet("/superService")
-public class ServiceServletT extends BaseServlet {
+public class SuperServiceServletT extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
@@ -48,10 +49,10 @@ public class ServiceServletT extends BaseServlet {
 	protected void service(HttpServletRequest req, HttpServletResponse resp) 
 			throws ServletException, IOException {
 		System.out.println("第一步：ServiceServletT.service()");
-		// 调用父类{@Link BaseServlet}的service方法
+		// 第二步：调用父类{@Link BaseServlet}的service方法
 		super.service(req, resp);
-		// 重写service，需要自己调用{@Link ServiceServletT.doGet}
-		doGet(req, resp);
+		// 第三步：父类{@Link HttpServlet.doGet} 调用{@Link ServiceServletT.doGet}
+		// 因为父类doGet被Override，如果调用父类doGet需要 super。doGet()
 	}
 
 	

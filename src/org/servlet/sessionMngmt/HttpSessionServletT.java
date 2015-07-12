@@ -59,7 +59,7 @@ public class HttpSessionServletT extends HttpServlet{
 		session.setAttribute("sessionName", "sessionValue");
 		
 		PrintWriter out = resp.getWriter();
-		out.println("Hello,HttpSession! <br>");
+		out.println("Hello,HttpSession!SeesionId" + session.getId() + " <br>");
 		// 从Session获取对象
 		out.println("sessionName: " + session.getAttribute("sessionName"));
 	}
