@@ -1,9 +1,9 @@
 # servlet-core-learning
-Servlet/JSP学习积累的例子，是Java EE初学者及Servlet/JSP核心技术巩固的最佳实践。
+Servlet/JSP学习积累的例子，是Java EE初学者及Servlet/JSP核心技术巩固的最佳实践。<br>
 补充：还有Tomcat容器相关
 
 ## 作者与学习乐园
-源码地址:我的[GitHub地址](https://github.com/JeffLi1993 "GitHub")
+源码地址:我的[GitHub地址](https://github.com/JeffLi1993 "GitHub")<br>
 作者： [李强强](http://www.bysocket.com/ "李强强")<br>
 QQ群：编程之美 365234583 [立即加入](http://jq.qq.com/?_wv=1027&k=Sx4s4U "编程之美")
 
@@ -15,16 +15,20 @@ Servlet/JSP核心技术学习代码兼测试案例<br>
 
 包目录：
 
+	├── Servlet JSP
+	├── org.jsp						// jsp相关
 	├── org.servlet.reqAndresp		// 请求与响应
 	├── org.servlet.sessionMngmt		// 会话管理
-	│
-	├── org.tomcat						// tomcat相关
+	├── Tomcat 
+	├── org.tomcat					// tomcat相关
 	│
 	拼命更新！顶！d=====(￣▽￣*)b
 
-Servlet/Jsp详细目录：
+Servlet/Jsp相关详细目录：
 
 	├── README.md								// 项目唯一详细文档
+	├── org.jsp						// jsp相关
+	├── 	Counter.java				// 	page指令之计数器累加器
 	├── org.servlet.reqAndresp			// 请求与响应
 	├── 	HelloWorldServletT.java				// 	HelloWrold案例
 	├── 	LifeCircleServletT.java				// 	Servlet生命周期演示案例
@@ -36,11 +40,17 @@ Servlet/Jsp详细目录：
 	拼命更新！顶！d=====(￣▽￣*)b
 
 
-Tomcat详细目录：
+Tomcat相关详细目录：
 
-	├── README.md								// 项目唯一详细文档
-	├── org.tomcat.jsp.jasper			// Japser引擎
+	├── README.md							// 项目唯一详细文档
+	├── org.tomcat.jsp.jasper				// Japser引擎
 	├── 	JspCompilerT.java					// 	Jasper引擎编译JSP
 	拼命更新！顶！d=====(￣▽￣*)b
 
+WebContent相关详细目录：
+
+	├── README.md							// 项目唯一详细文档
+	├── counter.jsp				// 计数器累加器显示JSP
+	├── jspC.jsp					// 	Jasper引擎编译JSP所需的JSP
+	拼命更新！顶！d=====(￣▽￣*)b
 
