@@ -12,7 +12,7 @@
 		<form action="/servlet-core-learning/upload2.html" method="post" 
 				enctype="multipart/form-data">
 			请选择文件路径：
-			<input type="file" name="myfile"/> <br>
+			<input type="file" name="myfile"/><br>
 			<input type="submit" value="点击上传">
 		</form>
 	</body>
