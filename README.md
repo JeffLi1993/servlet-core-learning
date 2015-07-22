@@ -16,12 +16,21 @@ Servlet/JSP核心技术学习代码兼测试案例<br>
 包目录：
 
 	├── Servlet JSP
+	├── org.component					// 插件相关
 	├── org.jsp						// jsp相关
 	├── org.servlet.reqAndresp		// 请求与响应
 	├── org.servlet.sessionMngmt		// 会话管理
 	├── Tomcat 
 	├── org.tomcat					// tomcat相关
 	│
+	拼命更新！顶！d=====(￣▽￣*)b
+
+插件相关详细目录：
+
+	├── README.md								// 项目唯一详细文档
+	├── org.component					// 插件相关
+	├── org.component.uploadfile		// 上传下载
+	├── 	UploadServlet.java				// 	文件上传类
 	拼命更新！顶！d=====(￣▽￣*)b
 
 Servlet/Jsp相关详细目录：
@@ -39,7 +48,6 @@ Servlet/Jsp相关详细目录：
 	├── 	HttpSessionServletT.java			// HttpSession简单案例
 	拼命更新！顶！d=====(￣▽￣*)b
 
-
 Tomcat相关详细目录：
 
 	├── README.md							// 项目唯一详细文档
@@ -50,7 +58,10 @@ Tomcat相关详细目录：
 WebContent相关详细目录：
 
 	├── README.md							// 项目唯一详细文档
-	├── counter.jsp				// 计数器累加器显示JSP
-	├── jspC.jsp					// 	Jasper引擎编译JSP所需的JSP
+	├── /component							// 插件相关
+	├── /component/uploadfile			// 上传下载
+	├── 	upload.jsp							// 上传JSP
+	├── counter.jsp							// page指令之计数器累加器显示JSP
+	├── jspC.jsp								// 	Jasper引擎编译JSP所需的JSP
 	拼命更新！顶！d=====(￣▽￣*)b
 
