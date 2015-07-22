@@ -15,8 +15,9 @@ Servlet/JSP核心技术学习代码兼测试案例<br>
 
 包目录：
 
-	├── Servlet JSP
+	├── 插件
 	├── org.component					// 插件相关
+	├── Servlet JSP
 	├── org.jsp						// jsp相关
 	├── org.servlet.reqAndresp		// 请求与响应
 	├── org.servlet.sessionMngmt		// 会话管理
@@ -27,17 +28,17 @@ Servlet/JSP核心技术学习代码兼测试案例<br>
 
 插件相关详细目录：
 
-	├── README.md								// 项目唯一详细文档
+	├── README.md						// 项目唯一详细文档
 	├── org.component					// 插件相关
-	├── org.component.uploadfile		// 上传下载
+	├── org.component.uploadfile		// 插件-文件上传下载
 	├── 	UploadServlet.java				// 	文件上传类
 	拼命更新！顶！d=====(￣▽￣*)b
 
 Servlet/Jsp相关详细目录：
 
 	├── README.md								// 项目唯一详细文档
-	├── org.jsp						// jsp相关
-	├── 	Counter.java				// 	page指令之计数器累加器
+	├── org.jsp							// jsp相关
+	├── 	Counter.java						// 	page指令之计数器累加器
 	├── org.servlet.reqAndresp			// 请求与响应
 	├── 	HelloWorldServletT.java				// 	HelloWrold案例
 	├── 	LifeCircleServletT.java				// 	Servlet生命周期演示案例
@@ -58,9 +59,9 @@ Tomcat相关详细目录：
 WebContent相关详细目录：
 
 	├── README.md							// 项目唯一详细文档
-	├── /component							// 插件相关
-	├── /component/uploadfile			// 上传下载
-	├── 	upload.jsp							// 上传JSP
+	├── /component						// 插件相关
+	├── /component/uploadfile				// 文件上传下载
+	├── 	upload.jsp							// 文件上传JSP
 	├── counter.jsp							// page指令之计数器累加器显示JSP
 	├── jspC.jsp								// 	Jasper引擎编译JSP所需的JSP
 	拼命更新！顶！d=====(￣▽￣*)b
