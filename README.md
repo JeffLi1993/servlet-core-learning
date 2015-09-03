@@ -19,6 +19,7 @@ Servlet/JSP核心技术学习代码兼测试案例<br>
 	├── org.component					// 插件相关
 	├── Servlet JSP
 	├── org.jsp						// jsp相关
+	├── org.servlet					// Servlet相关
 	├── org.servlet.reqAndresp		// 请求与响应
 	├── org.servlet.sessionMngmt		// 会话管理
 	├── Tomcat 
@@ -39,6 +40,8 @@ Servlet/Jsp相关详细目录：
 	├── README.md								// 项目唯一详细文档
 	├── org.jsp							// jsp相关
 	├── 	Counter.java						// 	page指令之计数器累加器
+	├── org.servlet					// Servlet相关
+	├── 	HttpServletService.java				// 	HttpServlet的service方法实现
 	├── org.servlet.reqAndresp			// 请求与响应
 	├── 	HelloWorldServletT.java				// 	HelloWrold案例
 	├── 	LifeCircleServletT.java				// 	Servlet生命周期演示案例
