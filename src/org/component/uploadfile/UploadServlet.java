@@ -52,10 +52,10 @@ public class UploadServlet extends HttpServlet {
 		
 		// 文件输出流指向这个临时文件
 		FileOutputStream outputStream = new FileOutputStream(tempFile);
-		byte[] buff = new byte[1024];// 分配1024个字节大小的内存给buf
+		byte[] buff = new byte[1024];// 分配1024个字节大小的内存给buff byte数组
 		int n;
 		while((n = fileStream.read(buff)) != -1) {
-			outputStream.write(buff,0, n); // 读取1024个字节放到buf中
+			outputStream.write(buff,0, n); // 读取1024个字节放到buff byte数组中
 		}
 		
 		// 关闭输出流、输入流

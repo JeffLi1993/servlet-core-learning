@@ -9,7 +9,8 @@
 	</head>
 	<body>
 		<h2>文件上传</h2>
-		<form action="/servlet-core-learning/upload2.html" method="post" 
+		<!-- action 指向 UploadServlet.java -->
+		<form action="/servlet-core-learning/upload3.html" method="post" 
 				enctype="multipart/form-data">
 			请选择文件路径：
 			<input type="file" name="myfile"/><br>
