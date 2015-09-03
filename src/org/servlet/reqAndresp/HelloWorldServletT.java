@@ -37,7 +37,7 @@ public class HelloWorldServletT extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException{
-		// 获取响应对象
+		// 获取输出打印对象
 		PrintWriter out = resp.getWriter();
 		out.println("Hello,Servlet/JSP World!");
 	}
